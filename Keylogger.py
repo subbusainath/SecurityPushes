@@ -27,7 +27,7 @@ new_hook.KeyDown = OnKeyPress
 new_hook.HookKeyboard()
 
 """
------- Yello -------
+------ Yello ------- (/\/0)
 """
 
 try:
