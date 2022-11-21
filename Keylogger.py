@@ -26,6 +26,10 @@ new_hook.KeyDown = OnKeyPress
 
 new_hook.HookKeyboard()
 
+"""
+------ Yello -------
+"""
+
 try:
     new_hook.start()
 except KeyboardInterrupt:
