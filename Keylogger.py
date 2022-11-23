@@ -7,7 +7,7 @@ file_log = os.environ.get( 'pylogger_file' , os.path.expanduser('~/github/Securi
 
 cancel_key = os.environ.get('pylogger_cancel','')
 
-#cancel keyh
+#cancel keyhooger
 
 print(cancel_key)
 
