@@ -5,4 +5,5 @@ print("hey hey!")
 #### helooooooo
 
 if __name__ == "__main__":
+  print("inside main block")
 __init__()
